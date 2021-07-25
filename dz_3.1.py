@@ -16,7 +16,7 @@ try:
 except ValueError:
     print(x + y)
     sys.exit()
-if 3 <= float(x) and float(y) <= 21:
+if (3 <= float(x) <= 21) and (3 <= float(y) <= 21):
     print(abs(float(x) - float(y)))
 else:
     print(x + y)
