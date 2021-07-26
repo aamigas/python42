@@ -16,7 +16,7 @@ except:
     ValueError
     print(' values are out of range')
     sys.exit()
-if (3 <= float(a) <= 23) and (3 <= float(b) <= 23) and op in ('+, -, *, /'):
+if (3 <= float(a) <= 23) and (3 <= float(b) <= 23) and op in ('+-*/'):
     print(eval(a + op + b))
 else:
     print(' values are out of range')
