@@ -89,3 +89,4 @@ stmt = select([students, departments]).select_from(j)
 result = connection.execute(stmt).fetchall()
 
 print(result)
+
